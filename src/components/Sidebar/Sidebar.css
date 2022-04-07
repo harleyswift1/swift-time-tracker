@@ -1,5 +1,23 @@
-.sidebar-title {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+.sidebar {
+    width: 12%;
+    height: 100vh;
+    background-color: var(--sidebar-colour);
+}
+
+.sidebar-contents {
+    border: 1px solid orange;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.sidebar-contents-top h1 {
+    font-family: Quicksand, sans-serif;
+    margin-left: 1rem;
     color: black;
-    font-weight: bold;
-    font-size: 5px;
+    font-size: 1.8rem;
 }
