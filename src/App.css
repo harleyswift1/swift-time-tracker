@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+    --main-background-colour: #F9F9F9;
+    --sidebar-colour: #FFFFFF;
+}
+
+* {
+    font-family: Quicksand, sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 12%;
+    height: 100vh;
+    background-color: var(--sidebar-colour);
+}
+
+.main {
+    width: 88%;
+    height: 100vh;
+    background-color: var(--main-background-colour);
+}
