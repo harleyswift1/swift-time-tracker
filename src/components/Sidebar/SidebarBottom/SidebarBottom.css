@@ -1,4 +1,45 @@
 .sidebar-contents-bottom {
-    border: 1px solid darkblue;
-    min-height: 20rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    height: auto;
+}
+
+.sbc-bottom-widget {
+    width: 85%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #F3F2F2;
+}
+
+.sbc-bottom-widget-contents {
+    flex-direction: column;
+}
+
+.sbc-bottom-widget-contents h1 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.sbc-bottom-widget-contents p {
+    text-align: center;
+    padding: 0 0.8rem;
+}
+
+.sbc-bottom-widget-contents-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 2rem;
+    transform: translateY(50%);
+}
+
+.sbc-bottom-widget-contents-buttons button {
+    width: 4.5rem;
+    height: 1.8rem;
+    border-radius: 10px;
+    background-color: #732FA9;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
 }

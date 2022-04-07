@@ -108,6 +108,15 @@ samp {
     font-size: 1em; /* 2 */
 }
 
+button {
+    transition: 100ms ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
 /**
  * Add the correct font size in all browsers.
  */
