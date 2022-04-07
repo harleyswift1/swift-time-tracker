@@ -1,5 +1,4 @@
 .sidebar-contents-top {
-    border: 1px solid red;
 }
 
 .sidebar-contents-top h1 {
@@ -7,4 +6,12 @@
     margin-left: 1rem;
     color: black;
     font-size: 1.8rem;
+    margin-bottom: 5rem;
+}
+
+.sidebar-contents-top-navigation-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
 }

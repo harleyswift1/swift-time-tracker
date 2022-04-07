@@ -3,7 +3,7 @@ import "./SidebarBottom.css"
 export default function SidebarBottom() {
 
     function handleButtonClick() {
-        alert("This feature is not currently available");
+        alert("This feature is not currently available")
     }
     return(
         <div className="sidebar-contents-bottom">
