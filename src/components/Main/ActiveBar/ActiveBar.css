@@ -1,0 +1,40 @@
+
+.main-active {
+    background-color: #efefef;
+    border-radius: 3px;
+}
+
+.main-active-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0.8rem;
+}
+
+.main-active-title {
+    cursor: pointer;
+    color: black;
+}
+
+.main-active-content-tools {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.8rem;
+}
+
+.stop-start-button {
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 3px;
+    background-color: var(--button-color-stop);
+    width: 6rem;
+    height: 2.4rem;
+}

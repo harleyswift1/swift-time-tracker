@@ -4,6 +4,9 @@
     --primary-color: #732FA9;
     --main-background-colour: #F9F9F9;
     --sidebar-colour: #FFFFFF;
+
+    --button-color-stop: #CE4848;
+    --button-color-start: #6bc94f;
 }
 
 * {
@@ -12,5 +15,14 @@
 
 .page {
     display: flex;
+    margin: auto;
+    width: 1920px;
     flex-direction: row;
+}
+
+
+
+p {
+    padding: 0;
+    margin: 0;
 }
