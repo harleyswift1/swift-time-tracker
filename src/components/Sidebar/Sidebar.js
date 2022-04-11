@@ -1,8 +1,7 @@
 import "./Sidebar.css";
 import SidebarBottom
     from "./SidebarBottom/SidebarBottom";
-import SidebarTop
-    from "./SidebarTop/SidebarTop";
+import SidebarTop from "./SidebarTop/SidebarTop";
 
 export default function Sidebar() {
     return(

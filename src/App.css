@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
+    --primary-color: #732FA9;
     --main-background-colour: #F9F9F9;
     --sidebar-colour: #FFFFFF;
 }

@@ -1,5 +1,56 @@
 .main {
+    padding: 0rem 1.6rem;
     width: 88%;
     height: 100vh;
-    background-color: var(--main-background-colour);
+    background: linear-gradient(to bottom, var(--primary-color) 0%, var(--primary-color) 25%, var(--main-background-colour) 25%, var(--main-background-colour) 100%);
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header-titles {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    column-gap: 1.6rem;
+    align-items: center;
+}
+
+.main-header-titles h1 {
+    font-size: 2.6rem;
+}
+
+.main-header-titles p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.main-header-buttons {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.4rem;
+    align-items: center;
+}
+
+.main-header-buttons button {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    border: none;
+    width: 5rem;
+    height : 2rem;
 }

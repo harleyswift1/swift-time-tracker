@@ -1,5 +1,6 @@
 
 .sidebar-contents-top-navigation-item {
+    border-left: 7px solid white;
     display: flex;
     flex-direction: row;
     column-gap: 1rem;
